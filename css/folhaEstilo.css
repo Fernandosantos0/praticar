@@ -369,7 +369,7 @@ footer#rodape a {
 
 }
 
-@media (max-width: 383px) {
+@media (min-width: 0px) and (max-width: 383px) {
 
 	section#sobre {
 		height: 100vh;
