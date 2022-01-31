@@ -193,6 +193,15 @@ section:nth-of-type(2) {
 	padding: 45px 0;
 }
 
+.flex-box-cursos {
+	display: flex;
+	flex-wrap: row wrap;
+	justify-content: center;
+	max-width: 1000px;
+	margin: 0 auto;
+	margin-right: 5%;
+}
+
 #cursos svg {
 	font-size: 55px;
 }
@@ -200,11 +209,6 @@ section:nth-of-type(2) {
 #cursos .banner-cursos h3,
 #servicos .banner-servicos h3 {
 	text-align: center;
-}
-
-#cursos .banner-cursos {
-	width: 25%;
-	margin-right: 5%;
 }
 
 #cursos .banner-cursos h3 ,
@@ -350,10 +354,6 @@ footer#rodape a {
 		flex-direction: column;
 	}
 
-	.banner-cursos {
-		width: 85%;
-	}
-
 }
 
 @media (max-width: 558px) {
@@ -362,7 +362,7 @@ footer#rodape a {
 		flex-direction: column;
 	}
 
-	.banner-servicos {
+	#cursos div.banner-servicos {
 		margin-bottom: 15px;
 		width: 85%;
 	}
